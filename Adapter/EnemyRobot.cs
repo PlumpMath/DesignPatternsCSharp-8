@@ -14,7 +14,7 @@ namespace Adapter
         {
             int attackDamage = generator.Next(10) + 1;
             Console.WriteLine("Enemy Robot Causes {0} Damage", attackDamage);
-	    }
+        }
 
         public void WalkForward()
         {
