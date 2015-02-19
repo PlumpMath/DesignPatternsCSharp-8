@@ -12,7 +12,7 @@ namespace Adapter
 
         public void SmashWithHands()
         {
-		    int attackDamage = generator.Next(10) + 1;
+            int attackDamage = generator.Next(10) + 1;
             Console.WriteLine("Enemy Robot Causes {0} Damage", attackDamage);
 	    }
 
@@ -20,11 +20,11 @@ namespace Adapter
         {
             int movement = generator.Next(5) + 1;
             Console.WriteLine("Enemy Robot Walks Forward {0} Spaces", movement);
-	    }
+        }
 
         public void ReactToHuman(String driverName)
         {
-                Console.WriteLine("Enemy Robot Tramps on {0}", driverName);
-	    }
+            Console.WriteLine("Enemy Robot Tramps on {0}", driverName);
+        }
     }
 }
